@@ -33,7 +33,7 @@ RGB 到 YUV 的转换，就是将图像所有像素点的 R、G、B 分量转换
 
 有如下公式进行转换：
 
-[https://github.com/fanflame/Android-Coder/android/yuv/pic/1.webp](111)
+![111](https://github.com/fanflame/Android-Coder/blob/master/android/yuv/pics/1.webp)
 
 
 此时的转换结束后，每个像素点都有完整的 Y、U、V 分量。而之前提到 Y 和 UV 分量是可以分离的，接下来通过不同的采样方式，可以将图像的 Y、U、V 分量重新组合。
